@@ -1,0 +1,189 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.nav_name{
+  color: 	#006A96 !important;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+
+nav.navbar{
+  border-bottom: 10px solid #03a9f4;
+  border-radius: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+
+}
+.navbar-light .navbar-nav .nav-link{
+  color: purple;
+  font-size: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  background-color: #03a9f4;
+}
+
+#profilePic{
+  border-radius: 50%;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+ display: block;
+ border: 5px solid #03a9f4;
+ padding: 5px;
+
+}
+
+div.intro .text{
+  text-align: center;
+  font-size: 22px;
+  border: 2px solid #03a9f4;
+  border-radius: 20px;
+  padding: 45px;
+}
+
+div.intro .social_media ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+div.intro .social_media ul li i{
+  font-size: 65px;
+  color: black;
+  margin: 0px 15px;
+
+}
+
+div.intro .social_media ul li i:hover{
+  cursor: pointer;
+  color: #03a9f4;
+}
+
+.container{
+  margin-bottom: 15px;
+}
+
+h2{
+  text-decoration: overline;
+  color: #03a9f4;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+div.experiences .card-text {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  border: 1px solid #03a9f4;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  perspective: 1500px;
+  background-color: transparent;
+
+}
+
+.card:hover{
+  transform: rotateY(180deg);
+}
+
+.card_front{
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+
+}
+
+.card_back{
+  transform: rotateY(180deg);
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+  margin: auto;
+  padding: 30px;
+  border-radius: 4%;
+
+
+}
+
+.card_back ul{
+  list-style: none;
+}
+
+
+footer{
+  display: block;
+  text-align: center;
+  background-color: #03a9f4;
+  height: 8%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+
+div.experiences .card-img-top{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 10px auto;
+}
+
+
+div.projects .card-img-top{
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin: 10px auto;
+}
+
+div.projects .card-text{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+
+}
+div.education .card-img-top{
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+
+}
+
+div.education .card-text{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+
+}
