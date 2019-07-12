@@ -161,8 +161,8 @@ div.experiences .card-img-top{
 
 
 div.projects .card-img-top{
-  height: 300px;
-  width: 500px;
+  height: 250px;
+  width: 300px;
   display: block;
   margin: 10px auto;
 }
@@ -175,7 +175,7 @@ div.projects .card-text{
 }
 div.education .card-img-top{
   height: 300px;
-  width: 350px;
+  width: 250px;
   display: block;
   margin: 10px auto;
 
