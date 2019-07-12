@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  font-size: 12px ;
+  font-size: 15px;
 }
 
 body, html{
@@ -47,8 +47,11 @@ nav.navbar{
  display: block;
  border: 5px solid #03a9f4;
  padding: 5px;
-
+  width: 250px;
+ height: 250px;
 }
+
+
 
 div.intro .text{
   text-align: center;
@@ -118,7 +121,7 @@ div.experiences .card-text {
 .card_front{
   width: 100%;
   height: 100%;
-  backface-visibility:hidden;
+  backface-visibility: hidden;
 
 }
 
@@ -131,7 +134,7 @@ div.experiences .card-text {
   margin: auto;
   padding: 30px;
   border-radius: 4%;
-
+  
 
 }
 
@@ -149,11 +152,14 @@ footer{
   padding-bottom: 50px;
   font-weight: bold;
   color: white;
+  font-size: 15px;
+  
 }
 
 
+
 div.experiences .card-img-top{
-  height: 250px;
+  height: 350px;
   width: 50%;
   display: block;
   margin: 10px auto;
@@ -162,7 +168,7 @@ div.experiences .card-img-top{
 
 
 div.projects .card-img-top{
-  height: 250px;
+  height: 350px;
   width: 50%;
   display: block;
   margin: 10px auto;
@@ -175,8 +181,8 @@ div.projects .card-text{
 
 }
 div.education .card-img-top{
-  height: 250px;
-  width: 45%;
+  height: 200px;
+  width: 40%;
   display: block;
   margin: 10px auto;
 
@@ -188,4 +194,5 @@ div.education .card-text{
   text-align: center;
 
 }
+
 
